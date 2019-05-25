@@ -1,0 +1,24 @@
+
+   ____ __________  
+  / __ \___  /  _ \ 
+ | |  | | / /| |_) |
+ | |  | |/ / |  _ < 
+ | |__| / /__| |_) |
+  \____/_____|____/ 
+                    
+                    
+A simple script which will help you to solve the black screen problem that occurs after installing Nvidia Driver on some of Linux distributions.
+
+Test Environment:
+Operating System: Fedora 27.
+GPU: 1060.
+NVIDIA Driver Version: 430.14
+
+Version:
+0.1 Beta
+
+How it works:
+Condition: you must have root privliges, and you need to download the lastet Nvidia driver from https://www.nvidia.com/Download/index.aspx?lang=en-us
+First, run the script by:	sudo python Main.py
+Second, The system will reboot, after it reboot, go to the command line by Ctrl+alt+F2, and install the driver that downloaded before.
+Finally run the script again, the system will reboot again, once it rebooted the system will run with the lastet Nvidia driver and without the blackscreen.
